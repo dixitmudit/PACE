@@ -18,7 +18,9 @@
 
 The workbook contains the code and notebook to run PACE (Precise and Accurate Configuration Evaluation).
 
-PACE identifies stable ground state base-adsorbate configurations by first computing single point MLIP calculations of different adsorbate configurations placed on predefined positions over the base. The initial placement coordinates of adsorbates are chosen from the intersection points of a uniformly spaced 3D grid constructed within the unit cell. The resolution of this grid i.e., the number of subdivisions along each crystallographic axis is a tunable parameter, allowing control over the density of candidate adsorption sites. After different configurations of adsorbates on these sites is evaluated via the MLIP single point calculations and ranked, a set of potential candidates is filtered and MLIP structure optimization is performed on them. This is followed by first principle DFT optimisation on the MLIP predicted ground state energy system. Such a systematic and explicit evaluation for ground state configuration identification can provide systems overlooked by other methods especially for complex adsorbate structures and catalysts with unusual adsorption sites.
+PACE identifies stable ground-state base–adsorbate configurations through a multistep approach. It begins by performing single-point MLIP calculations on adsorbates placed at predefined grid points within the unit cell, where grid resolution (number of subdivisions along each axis) controls the density of possible adsorption sites.
+
+After ranking the resulting configurations based on MLIP energies, the most promising candidates undergo MLIP structure optimization, followed by first-principles DFT optimization of the MLIP-predicted ground state. 
 
 
 ## 🚀 Environment Setup
