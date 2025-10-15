@@ -63,8 +63,8 @@ pip install git+https://github.com/dixitmudit/PACE.git
 ### 2. Example notebook
 The following is an example workflow to carry out experiments with the PACE algorithm.
 [![Static Badge](https://img.shields.io/badge/google_colab-open_in_colab?style=flat-square&logo=googlecolab)](https://colab.research.google.com/github/dixitmudit/PACE/blob/main/examples/pace-results.ipynb)
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dixitmudit/PACE/blob/main/examples/pace-results.ipynb)
+<!-- 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dixitmudit/PACE/blob/main/examples/pace-results.ipynb) -->
 
 ### 3. PACE class to screen
 
