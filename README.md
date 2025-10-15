@@ -75,7 +75,7 @@ M.D. and S.K. gratefully acknowledge the financial support provided by the CSIR,
 We express our gratitude to the National Supercomputing Mission (NSM) for granting access to the computing resources of the Param Porul HPC System. This system is implemented by C-DAC and is supported by the Ministry of Electronics and Information Technology (MeitY) and the Department of Science and Technology (DST), Government of India.
 
 This code repo is based on several existing repositories and MLIPs:
-* Pytorch
+* ASE
 * MACE-MP-0
 * CHGNet
 
