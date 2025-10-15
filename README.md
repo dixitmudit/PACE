@@ -20,7 +20,7 @@ The workbook contains the code and notebook to run PACE (Precise and Accurate Co
 
 PACE identifies stable ground-state base–adsorbate configurations through a multistep approach. It begins by performing single-point MLIP calculations on adsorbates placed at predefined grid points within the unit cell, where grid resolution (number of subdivisions along each axis) controls the density of possible adsorption sites.
 
-After ranking the resulting configurations based on MLIP energies, the most promising candidates undergo MLIP structure optimization, followed by first-principles DFT optimization of the MLIP-predicted ground state. 
+After ranking the resulting configurations based on single-point MLIP energy predictions, the most promising candidates undergo MLIP structure optimization, followed by first-principles DFT optimization of the MLIP-predicted ground state. 
 
 
 ## 🚀 Environment Setup
