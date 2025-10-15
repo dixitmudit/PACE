@@ -1,15 +1,13 @@
-<h1 align="center">PACE (Precise and Accurate Configuration Evaluation)</h1>
+<!-- <h1 align="center">PACE (Precise and Accurate Configuration Evaluation)</h1>
 
 <h4 align="center">
 
-</h4>
-The workbook contains the code and notebook to run PACE (Precise and Accurate Configuration Evaluation).
+</h4> -->
 
 ![Logo](https://github.com/dixitmudit/PACE/blob/main/logo_1.png)
 
 
 
-# PACE (Precise and Accurate Configuration Evaluation)
 
 The workbook contains the code and notebook to run PACE (Precise and Accurate Configuration Evaluation).
 
