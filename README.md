@@ -91,7 +91,7 @@ We express our gratitude to the National Supercomputing Mission (NSM) for granti
 
 This code repo is based on several existing repositories and MLIPs:
 * [ASE](https://gitlab.com/ase/ase)
-* [MACE-MP-0](https://github.com/ACEsuit/mace-foundations
+* [MACE-MP-0](https://github.com/ACEsuit/mace)
 * [CHGNet](https://github.com/CederGroupHub/chgnet/)
 
 
