@@ -5,7 +5,7 @@
 </h4>
 The workbook contains the code and notebook to run PACE (Precise and Accurate Configuration Evaluation).
 
-<!-- ![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png) -->
+![Logo](https://github.com/dixitmudit/PACE/blob/main/logo_1.png)
 
 
 
