@@ -65,11 +65,13 @@ pip install git+https://github.com/dixitmudit/PACE.git
 ### 3. PACE class to screen
 ```bash
 from pace import PACE
-from 
+from ase.io import read, write
+
+base = read('/path/to/base.vasp')
+
 
 # Setup PACE:
 pace = PACE(base=base, adsorbate=adsorbate, division=5, z_levels=[1.35, 1.75])
-# Handy VS Code feature: Hover over PAACE or any method/function to obtain info about arguments
 
 # Screen conformations
 results = pace.screen(calculator=mace_calc, fig_save_at='/your/path/here', mlip_optimization=3)
