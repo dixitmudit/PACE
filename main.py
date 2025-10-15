@@ -5,9 +5,8 @@ import torch
 from ase.io import read
 from mace.calculators import MACECalculator
 
-# Note: Assuming mdgroup and its contents (PACE, utilfuncs) are available in your environment.
-from mdgroup.pace import PACE
-from mdgroup.utilfuncs import create_directory_if_not_exists
+from pace import PACE
+from pace.utilfuncs import create_directory_if_not_exists
 
 
 def parse_args():
@@ -56,8 +55,6 @@ def main():
     """Main function to run the PACE screening."""
     args = parse_args()
 
-    # --- 1. Device Setup ---
-    # Determine the device based on command-line argument
     if args.device == 'auto':
         device = 'cuda' if torch.cuda.is_available() else 'cpu'
     else:
@@ -65,7 +62,6 @@ def main():
 
     print('Running on device:', device)
 
-    # --- 2. Calculator Initialization ---
     try:
         # Use the model path from the command line argument
         mace_calc = MACECalculator(args.model, device=device)
@@ -76,7 +72,7 @@ def main():
         print(f"Fatal Error initializing MACE calculator: {e}. Exiting.")
         return
 
-    # --- 3. Parameter Assignment ---
+
     metals = args.metals
     all_adsorbates = args.adsorbates
     
@@ -84,8 +80,6 @@ def main():
     calculators = [mace_calc]
     calculator_names = ["mace"]
 
-    # --- 4. Main Screening Loop ---
-    # Append to the error log file instead of overwriting it each time
     with open('errors_log.txt', 'a') as log_file:
         log_file.write("\n--- Starting New Screening Run ---\n")
 
@@ -126,7 +120,6 @@ def main():
                     )
 
                     # Screen conformations
-                    # The original code passed mace_calc here, which is fine since it's the only calculator.
                     results = pace.screen(
                         calculator=mace_calc, 
                         fig_save_at='figs', 
