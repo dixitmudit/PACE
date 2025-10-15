@@ -21,6 +21,19 @@
 The workbook contains the code and notebook to run PACE (Precise and Accurate Configuration Evaluation).
 
 
+## 🚀 Environment Setup
+- System requirements: This package requires a standard Linux computer with GPU (supports CUDA >= 11) and enough RAM (> 2 GB). The code has been tested NVIDIA V100 SXM2. If you want to run the code on a GPU that does not support CUDA>=11, you need to modify the versions of PyTorch and CUDA in the [env.yml](env.yml) file.
+- We'll use `conda` to install dependencies and set up the environment for a Nvidia GPU machine.
+We recommend using the [Miniconda installer](https://docs.conda.io/projects/miniconda/en/latest/miniconda-other-installer-links.html).
+- After installing `conda`, install [`mamba`](https://mamba.readthedocs.io/en/latest/) to the base environment. `mamba` is a faster, drop-in replacement for `conda`:
+    ```bash
+    conda install mamba -n base -c conda-forge
+    ```
+- Then create a conda environment and install the dependencies:
+    ```bash
+    mamba env create -f env.yml
+    ```
+    Activate the conda environment with `conda activate pace-env`. It will take about 10 minutes to configure the environment for running code.
 
 
 
