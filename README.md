@@ -3,7 +3,6 @@
 <h4 align="center">
 
 </h4> -->
-
 <p align="center">
   <img src="./logo_2.png" alt="Precise and Accurate Configuration Evaluation" width="600"/>
 </p>
@@ -12,10 +11,10 @@
 
 <h4 align="center">
 
-![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=%23E9EAE8&color=%235C6216)
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
-[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+
+![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-5C6216?logo=python&logoColor=white&style=flat-square)
+![Static Badge](https://img.shields.io/badge/DOI-%20xxx.xxx-%235C6216?style=flat-square&logo=homepage&logoColor=white)
+[![MIT License](https://img.shields.io/badge/License-MIT-5C6216.svg?style=flat-square)](https://choosealicense.com/licenses/mit/)
 
 </h4>
 The workbook contains the code and notebook to run PACE (Precise and Accurate Configuration Evaluation).
