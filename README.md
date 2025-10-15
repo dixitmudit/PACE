@@ -11,6 +11,11 @@
 
 
 
+![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=%23E9EAE8&color=%235C6216)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+
 
 
 The workbook contains the code and notebook to run PACE (Precise and Accurate Configuration Evaluation).
@@ -19,7 +24,7 @@ The workbook contains the code and notebook to run PACE (Precise and Accurate Co
 
 
 
-## Installation
+## ⚙️ Installation
 
 ```sh
 pip install pace
@@ -31,33 +36,20 @@ if PyPI installation fails or you need the latest `main` branch commits, you can
 pip install git+https://github.com/dixitmudit/PACE.git
 ```
     
-## Usage
+## 🧪 Usage
 
-## 1. Direct Usage
+### 1. Direct Usage
 
 ```bash
   python main.py 
 ```
 
-## 2. 
+### 2. 
+```bash
 
+```
 
-## Demo
-
-Insert gif or link to demo
-
-
-
-## Badges
-
-
-
-
-![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=%23E9EAE8&color=%235C6216)
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
-[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+## 🌈 Acknowledgements
 
 
 ## 📝 Citation
