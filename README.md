@@ -24,6 +24,7 @@ After ranking the resulting configurations based on single-point MLIP energy pre
 
 
 ## 🚀 Environment Setup
+
 - System requirements: This package requires a standard Linux computer with GPU (supports CUDA >= 10) and enough RAM (> 2 GB). The code has been tested on NVIDIA V100 SXM2. If you want to run the code on a GPU that does not support CUDA>=10, you need to modify the versions of PyTorch and CUDA in the [env.yml](env.yml) file.
 - We'll use `conda` to install dependencies and set up the environment for a Nvidia GPU machine.
 We recommend using the [Miniconda installer](https://docs.conda.io/projects/miniconda/en/latest/miniconda-other-installer-links.html).
