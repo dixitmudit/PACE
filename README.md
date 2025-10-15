@@ -21,19 +21,25 @@ The workbook contains the code and notebook to run PACE (Precise and Accurate Co
 
 ## Installation
 
-Install my-project with npm
+```sh
+pip install pace
+```
 
-```bash
-  pip install pace
+if PyPI installation fails or you need the latest `main` branch commits, you can install from source:
+
+```sh
+pip install git+https://github.com/dixitmudit/PACE.git
 ```
     
-## Deployment
+## Usage
 
-To deploy this project run
+## 1. Direct Usage
 
 ```bash
   python main.py 
 ```
+
+## 2. 
 
 
 ## Demo
@@ -41,14 +47,9 @@ To deploy this project run
 Insert gif or link to demo
 
 
-## Documentation
-
-[Documentation](https://linktodocumentation)
-
 
 ## Badges
 
-Add badges from somewhere like: [shields.io](https://shields.io/)
 
 
 
@@ -59,14 +60,10 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
 [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
 
 
-## Usage/Examples
+## 📝 Citation
+If you find our work useful, please consider citing it:
+ /TBU/
+```bibtex
 
-```javascript
-import Component from 'my-project'
 
-function App() {
-  return <Component />
-}
 ```
-
-
