@@ -57,18 +57,22 @@ pip install git+https://github.com/dixitmudit/PACE.git
 
 ### 1. Direct Usage
 
+After placing the `VASP` files of the base and adsorbate in the current working directory, the `main.py` file can be executed as follows:
+
 ```bash
   python main.py --model /path/to/your/mace/model.model --metals Fe-Ru Fe-Mo --adsorbates Li2S Li2S2 --device cuda
 ```
 
 ### 2. Example notebook
+
 The following is an example workflow to carry out experiments with the PACE algorithm.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dixitmudit/PACE/blob/main/examples/pace-results.ipynb)
 
-### 3. PACE class to screen
+### 3. PACE class implementation 
 
-You can directly import PACE into your current workflow assuming you are using ase and MLIP optimized for 
+You can directly import PACE into your current workflow assuming you are using ase and MLIPs
+
 ```bash
 from pace import PACE
 from ase.io import read, write
