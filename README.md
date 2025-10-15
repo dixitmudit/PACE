@@ -66,12 +66,15 @@ pip install git+https://github.com/dixitmudit/PACE.git
 ```bash
 from pace import PACE
 from ase.io import read, write
+from mace.calculators import MACECalculator
 
+mace_calc = MACECalculator('/path/to/model/here')
 base = read('/path/to/base.vasp')
+adsorbate = read('/path/to/base.vasp')
 
 
 # Setup PACE:
-pace = PACE(base=base, adsorbate=adsorbate, division=5, z_levels=[1.35, 1.75])
+pace = PACE(base=base, adsorbate=adsorbate, division=5, z_levels=[1.35, 1.75]) # z_levels: distance of adsorbate from base in Angstroms
 
 # Screen conformations
 results = pace.screen(calculator=mace_calc, fig_save_at='/your/path/here', mlip_optimization=3)
