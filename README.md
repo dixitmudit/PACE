@@ -22,7 +22,7 @@ The workbook contains the code and notebook to run PACE (Precise and Accurate Co
 
 
 ## 🚀 Environment Setup
-- System requirements: This package requires a standard Linux computer with GPU (supports CUDA >= 11) and enough RAM (> 2 GB). The code has been tested NVIDIA V100 SXM2. If you want to run the code on a GPU that does not support CUDA>=11, you need to modify the versions of PyTorch and CUDA in the [env.yml](env.yml) file.
+- System requirements: This package requires a standard Linux computer with GPU (supports CUDA >= 10) and enough RAM (> 2 GB). The code has been tested NVIDIA V100 SXM2. If you want to run the code on a GPU that does not support CUDA>=10, you need to modify the versions of PyTorch and CUDA in the [env.yml](env.yml) file.
 - We'll use `conda` to install dependencies and set up the environment for a Nvidia GPU machine.
 We recommend using the [Miniconda installer](https://docs.conda.io/projects/miniconda/en/latest/miniconda-other-installer-links.html).
 - After installing `conda`, install [`mamba`](https://mamba.readthedocs.io/en/latest/) to the base environment. `mamba` is a faster, drop-in replacement for `conda`:
@@ -54,7 +54,7 @@ pip install git+https://github.com/dixitmudit/PACE.git
 ### 1. Direct Usage
 
 ```bash
-  python main.py 
+  python main.py --model /path/to/your/mace/model.model --metals Ru Mo --adsorbates Li2S Li2S2 --device cuda
 ```
 
 ### 2. 
@@ -63,6 +63,9 @@ pip install git+https://github.com/dixitmudit/PACE.git
 ```
 
 ## 🌈 Acknowledgements
+
+This code repo is based on several existing repositories:
+
 
 
 ## 📝 Citation
