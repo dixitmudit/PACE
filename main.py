@@ -92,7 +92,7 @@ def main():
     for calculator, model in zip(calculators, calculator_names):
         
         for metal in metals:
-            slab_filename = f'slabs/Fe-{metal}.vasp'
+            slab_filename = f'slabs/{metal}.vasp'
             
             # Read base slab
             try:

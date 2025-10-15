@@ -54,10 +54,10 @@ pip install git+https://github.com/dixitmudit/PACE.git
 ### 1. Direct Usage
 
 ```bash
-  python main.py --model /path/to/your/mace/model.model --metals Ru Mo --adsorbates Li2S Li2S2 --device cuda
+  python main.py --model /path/to/your/mace/model.model --metals Fe-Ru Fe-Mo --adsorbates Li2S Li2S2 --device cuda
 ```
 
-### 2. 
+### 2. Example notebook
 ```bash
 
 ```
