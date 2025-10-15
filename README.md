@@ -4,7 +4,11 @@
 
 </h4> -->
 
-![Logo](https://github.com/dixitmudit/PACE/blob/main/logo_1.png)
+<p align="center">
+  <img src="./logo_1.png" alt="Precise and Accurate Configuration Evaluation" width="600"/>
+</p>
+<br/>
+
 
 
 
