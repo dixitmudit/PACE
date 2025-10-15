@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-with open("README.md", "F") as f:
+with open("README.md", "r", encoding="utf-8") as f:
     description = f.read()
 
 setup(
@@ -8,8 +8,8 @@ setup(
     version='0.1',
     packages=find_packages(),
     install_requires=[
-        'numpy>=1.24',
-        'python>=3.10'
+        # 'numpy>=1.24',
+        # 'python>=3.10'
 
     ],
     long_description=description,

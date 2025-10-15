@@ -1,0 +1,9 @@
+README.md
+setup.py
+pace/__init__.py
+pace/pace.py
+pace/utilfuncs.py
+pace.egg-info/PKG-INFO
+pace.egg-info/SOURCES.txt
+pace.egg-info/dependency_links.txt
+pace.egg-info/top_level.txt
