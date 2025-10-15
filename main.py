@@ -104,7 +104,7 @@ def main():
                     log_file.write(error_msg + "\n")
                 continue
 
-            arch = f'{model}/Fe-{metal}'
+            arch = f'{model}/{metal}'
             
             for substrate in all_adsorbates:
                 try:

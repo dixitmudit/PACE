@@ -49,7 +49,7 @@ if PyPI installation fails or you need the latest `main` branch commits, you can
 pip install git+https://github.com/dixitmudit/PACE.git
 ```
     
-## 🧪 Usage
+## 🧪 Getting Started
 
 ### 1. Direct Usage
 
@@ -61,14 +61,23 @@ pip install git+https://github.com/dixitmudit/PACE.git
 [![Static Badge](https://img.shields.io/badge/google_colab-open_in_colab?style=flat-square&logo=googlecolab)](https://github.com/dixitmudit/PACE/blob/main/examples/pace-results.ipynb)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/dixitmudit/PACE/blob/main/examples/pace-results.ipynb)
+
+### 3. PACE class to screen
 ```bash
+
 
 ```
 
 ## 🌈 Acknowledgements
 
-This code repo is based on several existing repositories:
+M.D. and S.K. gratefully acknowledge the financial support provided by the CSIR, India, which facilitated the completion of this work. A.M.K.R. acknowledges the Department of Atomic Energy and UM-DAE-Centre for Excellence in Basic Sciences, 
 
+We express our gratitude to the National Supercomputing Mission (NSM) for granting access to the computing resources of the Param Porul HPC System. This system is implemented by C-DAC and is supported by the Ministry of Electronics and Information Technology (MeitY) and the Department of Science and Technology (DST), Government of India.
+
+This code repo is based on several existing repositories and MLIPs:
+* Pytorch
+* MACE-MP-0
+* CHGNet
 
 
 ## 📝 Citation
