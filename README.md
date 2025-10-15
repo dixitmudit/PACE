@@ -33,7 +33,7 @@ We recommend using the [Miniconda installer](https://docs.conda.io/projects/mini
     ```bash
     mamba env create -f env.yml
     ```
-    Activate the conda environment with `conda activate pace-env`. It will take about 10 minutes to configure the environment for running code.
+    Activate the conda environment with `conda activate pace-env`.
 
 
 
@@ -64,6 +64,16 @@ pip install git+https://github.com/dixitmudit/PACE.git
 
 ### 3. PACE class to screen
 ```bash
+from pace import PACE
+from 
+
+# Setup PACE:
+pace = PACE(base=base, adsorbate=adsorbate, division=5, z_levels=[1.35, 1.75])
+# Handy VS Code feature: Hover over PAACE or any method/function to obtain info about arguments
+
+# Screen conformations
+results = pace.screen(calculator=mace_calc, fig_save_at='/your/path/here', mlip_optimization=3)
+# if mlip_optimization > 0, it will initate mlip optimization of top `input: integer` (by_default: 20) structures.
 
 
 ```
