@@ -1,0 +1,15 @@
+ase==3.24.0
+chgnet==0.4.0
+mace-torch==0.3.9
+matplotlib==3.9.1
+matscipy==1.1.1
+python==3.10
+pandas
+pymatgen
+scikit-learn
+scipy
+torch==1.13.1+cu116
+torch-ema==0.3
+torchaudio==0.13.1
+torchmetrics==1.6.1
+torchvision==0.14.1+cu116
