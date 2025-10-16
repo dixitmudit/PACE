@@ -38,6 +38,14 @@ We recommend using the [Miniconda installer](https://docs.conda.io/projects/mini
     mamba env create -f environment.yml
     ```
     Activate the conda environment with `conda activate pace-env`.
+- Alternative:
+    ```bash
+    mamba env create -n pace-env
+    ```
+  Install from the requirements.txt file
+    ```bash 
+    pip install -r requirements.txt
+    ```
 
 
 
