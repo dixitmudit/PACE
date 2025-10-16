@@ -1,0 +1,27 @@
+name: pace-env
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - pip=24.0
+  - python=3.9.15
+  - pytorch-cuda=11.6
+  - scikit-learn=1.5.1
+  - scipy=1.13.1
+  - pip:
+      - anywidget==0.9.13
+      - ase==3.23.0
+      - e3nn==0.4.4
+      - mace-torch==0.3.6
+      - matplotlib==3.9.1.post1
+      - networkx==3.2.1
+      - numpy==1.26.4
+      - opt-einsum-fx==0.1.4
+      - palettable==3.3.3
+      - pandas==2.2.2
+      - pymatgen==2024.8.8
+      - torch==2.4.0
+      - torch-ema==0.3
+      - tqdm==4.66.4
