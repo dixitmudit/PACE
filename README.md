@@ -109,8 +109,7 @@ This code repo is based on several existing repositories and MLIPs:
 
 ## 📝 Citation
 If you find our work useful, please consider citing it:
- /TBU/
+
 ```bibtex
-
-
+ /TBU/
 ```
