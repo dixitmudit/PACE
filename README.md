@@ -14,6 +14,7 @@
 
 ![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-5C6216?logo=python&logoColor=white&style=flat-square)
 ![Static Badge](https://img.shields.io/badge/DOI-%20xxx.xxx-%235C6216?style=flat-square&logo=homepage&logoColor=white)
+[![Static Badge](https://img.shields.io/badge/doi-0.48550%2FarXiv.2510.15397-5C6216?style=flat-square)](https://doi.org/10.48550/arXiv.2510.15397)
 [![MIT License](https://img.shields.io/badge/License-MIT-5C6216.svg?style=flat-square)](https://choosealicense.com/licenses/mit/)
 
 </h4>
@@ -122,5 +123,14 @@ This code repo is based on several existing repositories and MLIPs:
 If you find our work useful, please consider citing it:
 
 ```bibtex
- /TBU/
+@misc{https://doi.org/10.48550/arxiv.2510.15397,
+  doi = {10.48550/ARXIV.2510.15397},
+  url = {https://arxiv.org/abs/2510.15397},
+  author = {Kumar,  Sahil and R,  Adithya Maurya K and Dixit,  Mudit},
+  keywords = {Materials Science (cond-mat.mtrl-sci),  FOS: Physical sciences,  FOS: Physical sciences},
+  title = {Unravelling the Catalytic Activity of Dual-Metal Doped N6-Graphene for Sulfur Reduction via Machine Learning-Accelerated First-Principles Calculations},
+  publisher = {arXiv},
+  year = {2025},
+  copyright = {Creative Commons Attribution 4.0 International}
+}
 ```
