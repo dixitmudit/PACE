@@ -55,7 +55,7 @@ After ranking the resulting configurations based on single-point MLIP energy pre
 ## ⚙️ Installation
 
 ```sh
-pip install pace
+pip install pace-mdgroup
 ```
 
 if PyPI installation fails or you need the latest `main` branch commits, you can install from source:
