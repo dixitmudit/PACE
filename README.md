@@ -14,6 +14,7 @@
 
 ![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-5C6216?logo=python&logoColor=white&style=flat-square)
 [![Static Badge](https://img.shields.io/badge/doi-arXiv.2510.15397-5C6216?style=flat-square)](https://doi.org/10.48550/arXiv.2510.15397)
+[![Static Badge](https://img.shields.io/badge/pypi-v0.1.0-5C6216?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/pace-mdgroup/)
 [![MIT License](https://img.shields.io/badge/License-MIT-5C6216.svg?style=flat-square)](https://choosealicense.com/licenses/mit/)
 
 </h4>
