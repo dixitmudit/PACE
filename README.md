@@ -13,7 +13,6 @@
 
 
 ![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-5C6216?logo=python&logoColor=white&style=flat-square)
-![Static Badge](https://img.shields.io/badge/DOI-%20xxx.xxx-%235C6216?style=flat-square&logo=homepage&logoColor=white)
 [![Static Badge](https://img.shields.io/badge/doi-0.48550%2FarXiv.2510.15397-5C6216?style=flat-square)](https://doi.org/10.48550/arXiv.2510.15397)
 [![MIT License](https://img.shields.io/badge/License-MIT-5C6216.svg?style=flat-square)](https://choosealicense.com/licenses/mit/)
 
