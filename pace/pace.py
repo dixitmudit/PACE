@@ -9,7 +9,7 @@ from ase.constraints import FixAtoms
 from ase.io.trajectory import Trajectory
 
 
-from mdgroup.utilfuncs import *
+from pace.utilfuncs import *
 
 
 class PACE:
@@ -258,4 +258,5 @@ class PACE:
 
         print(f"{'-x-o-'*20} \n SCREENING COMPLETE \n{'-x-o-'*20}")
         
+
         return dict({'screened_structures': ranked_structures})
