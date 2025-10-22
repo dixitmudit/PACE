@@ -7,7 +7,7 @@ build-backend = "setuptools.build_meta"
 
 name = "pace-mdgroup"
 
-version = "0.1.0"
+version = "0.1.1"
 
 description = "Tools for the pace-mdgroup project."
 
@@ -37,3 +37,4 @@ classifiers = [
 Homepage = "https://github.com/dixitmudit/PACE"
 
 Repository = "https://github.com/dixitmudit/PACE"
+
