@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 setup(
     name='pace',
-    version='0.1',
+    version='0.1.1',
     packages=find_packages(),
     install_requires=[
         # 'numpy>=1.24',
@@ -14,4 +14,5 @@ setup(
     ],
     long_description=description,
     long_description_content_type='text/markdown'
+
 )
